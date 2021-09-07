@@ -1,0 +1,144 @@
+.footer {
+    padding: 15px;
+    /* display: flex; */
+}
+
+.nav-contents {
+    display: flex;
+    justify-content: space-evenly;
+    border: 0px solid rgb(255, 255, 255);
+    height: 60px;
+    align-items: center;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 25px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 0.5;
+    font-size: 17px;
+}
+
+.button-outline {
+    border: 1px solid blue;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.w-button {
+    text-decoration: none;
+    color: blue;
+}
+
+.navigation-link {
+    text-decoration: none;
+    color: black;
+}
+
+.navigation-link:hover {
+    color: blue;
+}
+
+.w-button:hover {
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.205);
+}
+
+.footer {
+    background-color: rgb(228, 228, 228);
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.links {
+    /* border: 1px solid black; */
+    display: flex;
+    height: 150px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.site-link-href {
+    color: black;
+    text-decoration: none;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.site {
+    font-size: 15px;
+}
+
+.site-cont {
+    display: flex;
+    flex-direction: column;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    font-family: 'Urbanist', sans-serif;
+    /* border: 1px solid black; */
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+    width: 75px;
+    /* border: 1px solid black; */
+    align-items: center;
+    padding: 5px;
+}
+
+.about-us {
+    padding-right: 200px;
+}
+
+.extra {
+    font-family: 'Urbanist', sans-serif;
+    padding-left: 15px;
+}
+
+.signup {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 25px;
+    padding: 5px;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.last {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+}
+
+.mail {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
