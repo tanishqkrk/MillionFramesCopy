@@ -50,6 +50,10 @@
     grid-template-columns: 2fr 2fr;
 }
 
+.site-link-href:hover {
+    color: blue;
+}
+
 .links {
     /* border: 1px solid black; */
     display: flex;
